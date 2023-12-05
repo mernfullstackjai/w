@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    background-color: beige;
+    padding: 50px;
+    
+}
+#email{
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+
+#password{
+    margin-top:10px;
+    margin-bottom:10px ;
+}
+#firstname{
+    margin-top:10px;
+    margin-bottom:10px ;
+}
+#lastname{
+    margin-top:10px;
+    margin-bottom:10px ;
+}

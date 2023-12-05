@@ -1,0 +1,125 @@
+body{
+  background-image: url("assets/css/images/cloudy.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #fb6161aa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.butcolor{
+  background-color: orange;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.butcolor:active{
+  background-color: rgb(255, 115, 0);
+  transform: translateY(4px);
+}
+.inputcolr{
+  height: 35px;
+  width: 300px;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  background-color: beige;
+  color: #000000;
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.place-name{
+  font-size: larger;
+  font-weight: 700;
+}
+.tempcol{
+  background-color: rgb(83, 90, 101);
+  border: 2px solid black;
+  height: 28px;
+  width: 170px;
+  margin-left: 30%;
+  margin-top: 2.5%;
+  text-align: left;
+  padding-left: 4px;
+  color: black;
+  font-weight: 500;
+  border-radius: 10px;
+
+}
+.tempcolo{
+  background-color: rgb(83, 90, 101);
+  border: 2px solid black;
+  height: 28px;
+  width: 170px;
+  color: black;
+  font-weight: 500;
+  margin-left: 46%; 
+  margin-top: 1.5%;
+  text-align: right;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+.container-card{
+  width: 800px;
+}
+.humiditycl{
+  background-color: rgb(125, 142, 181);
+  border: 2px solid black;
+  color: black;
+  font-weight: 500;
+  height: 28px;
+  width: 170px;
+  margin-left: 38%; 
+  margin-top: 1.5%;
+  border-radius: 10px;
+
+}
+.headingwe{
+  margin-bottom: 3%;
+}
+.jai{
+  font-size: large;
+}
+.butcolors{
+  background-color: rgb(0, 255, 191);
+  cursor: pointer;
+  border-radius: 50px;
+}
