@@ -75,7 +75,7 @@ const SignupComponent = () => {
 //            alert("DANGEROUS TO RIDE DUE TO HIGH TEMPERATURE")
 //         }
 //         else if(current.temp_c<25) {
-//            alert("DANGEROUS TO RIDE DUE TO LOW TEMPERATURE AND MIGHT BE A CHANCE OF FROG")
+//            alert("DANGEROUS TO RIDE DUE TO LOW TEMPERATURE AND MIGHT BE A CHANCE OF FOG")
 //         }
       }      
   const getWeatherHandle = () => {
@@ -111,7 +111,7 @@ else if(current.temp_c<25 && current.humidity>80 && current.humidity>40 ) {
            alert("DANGEROUS TO RIDE DUE TO HIGH TEMPERATURE")
         }
         else if(current.temp_c<25) {
-           alert("DANGEROUS TO RIDE DUE TO LOW TEMPERATURE AND MIGHT BE A CHANCE OF FROG")
+           alert("DANGEROUS TO RIDE DUE TO LOW TEMPERATURE AND MIGHT BE A CHANCE OF FOG")
         }
     calling(placeName)
   }
