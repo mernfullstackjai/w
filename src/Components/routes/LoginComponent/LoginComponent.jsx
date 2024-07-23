@@ -31,12 +31,12 @@ const LoginComponent = () => {
 
 
   function error() {
-    console.log("Unable to retrieve your location");
-    alert("Unable to retrieve your location")
+    console.log("Unable to retrieve your location");
+    alert("Unable to retrieve your location")
   }
 
   async function calling(place) {
-    const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=e2e85ac9741847679ca115257231309&q=${place}`)
+    const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=f2cbe8920d8344a196434138242307&q=${place}`)
     console.log(response.data);
     const currentData = response.data.current
     const locationData = response.data.location

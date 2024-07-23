@@ -38,7 +38,7 @@ const SignupComponent = () => {
   }
 
   async function calling(place) {
-    const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=d8496487a7284479b1c40134230610&q=${place}`)
+    const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=f2cbe8920d8344a196434138242307&q=${place}`)
     console.log(response.data);
     const currentData = response.data.current
     const locationData = response.data.location
